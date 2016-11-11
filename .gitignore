@@ -16,7 +16,11 @@ DerivedData
 *.ipa
 *.xcuserstate
 .DS_Store
-#Framework/JudoShield.framework/*.*
+
+Framework/DeviceDNA.framework/_CodeSignature/*.*
+Framework/DeviceDNA.framework/Modules/*.*
+Source/DeviceDNA.framework/_CodeSignature/*.*
+Source/DeviceDNA.framework/Modules/*.*
 
 # CocoaPods
 #
