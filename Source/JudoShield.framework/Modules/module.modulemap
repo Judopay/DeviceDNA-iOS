@@ -1,0 +1,6 @@
+framework module JudoShield {
+  umbrella header "JudoShield.h"
+
+  export *
+  module * { export * }
+}
