@@ -36,24 +36,24 @@ code_sign() {
 }
 
 # Set working directory to product’s embedded frameworks 
-if [ -d "${SRCROOT}/JudoShield/" ]; then
-  cd "${SRCROOT}/JudoShield/"
+if [ -d "${SRCROOT}/DeviceDNA/" ]; then
+  cd "${SRCROOT}/DeviceDNA/"
 fi
 
-if [ -d "${SRCROOT}/Pods/JudoShield/" ]; then
-  cd "${SRCROOT}/Pods/JudoShield/"
+if [ -d "${SRCROOT}/Pods/DeviceDNA/" ]; then
+  cd "${SRCROOT}/Pods/DeviceDNA/"
 fi
 
-rm -rf Framework/JudoShield.framework
+rm -rf Framework/DeviceDNA.framework
 
-cp -r Source/JudoShield.framework Framework/JudoShield.framework
+cp -r Source/DeviceDNA.framework Framework/DeviceDNA.framework
 
-if [ -d "${SRCROOT}/JudoShield/Framework/" ]; then
-  cd "${SRCROOT}/JudoShield/Framework/"
+if [ -d "${SRCROOT}/DeviceDNA/Framework/" ]; then
+  cd "${SRCROOT}/DeviceDNA/Framework/"
 fi
 
-if [ -d "${SRCROOT}/Pods/JudoShield/Framework/" ]; then
-  cd "${SRCROOT}/Pods/JudoShield/Framework/"
+if [ -d "${SRCROOT}/Pods/DeviceDNA/Framework/" ]; then
+  cd "${SRCROOT}/Pods/DeviceDNA/Framework/"
 fi
 
 if [ "$ACTION" = "install" ]; then
