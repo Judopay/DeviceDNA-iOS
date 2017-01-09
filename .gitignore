@@ -18,9 +18,7 @@ DerivedData
 .DS_Store
 
 Framework/DeviceDNA.framework/_CodeSignature/*.*
-Framework/DeviceDNA.framework/Modules/*.*
 Source/DeviceDNA.framework/_CodeSignature/*.*
-Source/DeviceDNA.framework/Modules/*.*
 
 # CocoaPods
 #
