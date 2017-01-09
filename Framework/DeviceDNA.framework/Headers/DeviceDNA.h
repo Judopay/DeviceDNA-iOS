@@ -24,6 +24,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "LegacyDeviceDNA.h"
+
 @interface DeviceDNA : NSObject
 
 - (void)identifyDevice:(nonnull void(^)(NSString * _Nullable deviceIdentifier, NSError * _Nullable error))completion;
