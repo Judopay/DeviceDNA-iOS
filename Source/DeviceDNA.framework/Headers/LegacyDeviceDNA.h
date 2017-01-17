@@ -23,9 +23,11 @@
 //  SOFTWARE.
 
 #import <Foundation/Foundation.h>
+#import "Credentials.h"
 
 @interface LegacyDeviceDNA : NSObject
 
-- (void)getEncryptedDeviceSignalsWithDeviceIdentifier:(nonnull void(^)(NSDictionary * _Nullable device, NSError * _Nullable error))completion;
+- (nonnull instancetype)initWithCredentials:(nonnull Credentials *)credentials;
+- (void)getEncryptedDeviceSignalsWithDeviceIdentifier:(nonnull void(^)(NSDictionary<NSString *, NSString *> * _Nullable device, NSError * _Nullable error))completion;
     
 @end

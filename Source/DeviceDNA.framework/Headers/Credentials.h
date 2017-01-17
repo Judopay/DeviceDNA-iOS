@@ -1,5 +1,5 @@
 //
-//  LegacyDeviceDNA.h
+//  Credentials.h
 //  DeviceDNA-iOS-Source
 //
 //  Copyright (c) 2016 Alternative Payments Ltd
@@ -23,11 +23,12 @@
 //  SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "Credentials.h"
 
-@interface LegacyDeviceDNA : NSObject
+@interface Credentials : NSObject
 
-- (nonnull instancetype)initWithCredentials:(nonnull Credentials *)credentials;
-- (void)getEncryptedDeviceSignalsWithDeviceIdentifier:(nonnull void(^)(NSDictionary<NSString *, NSString *> * _Nullable device, NSError * _Nullable error))completion;
-    
+@property (nonnull, nonatomic, strong) NSString *token;
+@property (nonnull, nonatomic, strong) NSString *secret;
+
+- (_Nonnull instancetype)initWithToken:(nonnull NSString *)token secret:(nonnull NSString *)secret;
+
 @end

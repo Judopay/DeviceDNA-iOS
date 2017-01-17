@@ -24,12 +24,14 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Credentials.h"
 #import "LegacyDeviceDNA.h"
 
 @interface DeviceDNA : NSObject
 
+- (nonnull instancetype)initWithCredentials:(nonnull Credentials *)credentials;
 - (void)identifyDevice:(nonnull void(^)(NSString * _Nullable deviceIdentifier, NSError * _Nullable error))completion;
-- (void)send:(nonnull NSString *)deviceIdentifier signals:(nonnull NSDictionary *)signals;
-- (void)getDeviceProfile:(nonnull NSString *)deviceIdentifier completion:(nonnull void(^)(NSDictionary * _Nullable device, NSError * _Nullable error))completion;
+//- (void)send:(nonnull NSString *)deviceIdentifier signals:(nonnull NSDictionary<NSString *, NSString *> *)signals;
+- (void)getDeviceProfile:(nonnull NSString *)deviceIdentifier completion:(nonnull void(^)(NSDictionary<NSString *, NSString *> * _Nullable device, NSError * _Nullable error))completion;
 
 @end
