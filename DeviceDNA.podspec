@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'DeviceDNA'
-  s.version               = '0.1.2'
+  s.version               = '0.1.3'
   s.summary               = 'Judopay Device DNA client for iOS'
   s.homepage              = 'http://judopay.com/'
   s.license               = 'MIT'
