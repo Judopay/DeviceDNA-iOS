@@ -16,12 +16,12 @@ The DeviceDNA iOS library allows you to identify devices using the Judopay Genom
 $ gem install cocoapods
 ```
 
-- Add JudoShield to your `Podfile` to integrate it into your Xcode project:
+- Add DeviceDNA to your `Podfile` to integrate it into your Xcode project:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 
-pod 'JudoShield', '~> 2.0'
+pod 'DeviceDNA', '~> 2.0'
 ```
 
 - Then, run the following command:
@@ -31,3 +31,11 @@ $ pod install
 ```
 
 - Please make sure to always **use the newly generated `.xcworkspace`** file not not the projects `.xcodeproj` file
+
+- In your Xcode environment, go to your `Project Navigator` (blue project icon) called `Pods`, select the `JudoKit` target and open the tab called `Build Phases`.
+- Add a new `Run Script Phase` and drag it above the `Compile Sources` build phase.
+- In the shell script, paste the following line:
+
+```bash
+sh "${PODS_ROOT}/DeviceDNA/Framework/strip-frameworks-cocoapods.sh"
+```
