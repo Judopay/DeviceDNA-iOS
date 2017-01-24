@@ -6,6 +6,8 @@ The DeviceDNA iOS library allows you to identify devices using the Judopay Genom
 
 ### Step 1: Initialize DeviceDNA
 
+#### 1. Add DeviceDNA as a dependency
+
 #### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects.
@@ -40,4 +42,66 @@ $ pod install
 sh "${PODS_ROOT}/DeviceDNA/Framework/strip-frameworks-cocoapods.sh"
 ```
 
+#### 2. Initialize DeviceDNA with your Judo account details:
 
+- Add the following statement to the class where you intend to use DeviceDNA
+
+_swift_
+```swift
+@import DeviceDNA
+```
+
+_obj-c_
+```objc
+#import <DeviceDNA/DeviceDNA.h>
+```
+
+- Create an instance of DeviceDNA
+
+_swift_
+```swift
+let credentials = Credentials(<YOUR_TOKEN> secret:<YOUR_SECRET>)
+let deviceDNA = DeviceDNA(credentials: credentials)
+```
+
+_obj-c_
+```objc
+Credentials *credentials = [[Credentials alloc] initWithToken:<YOUR_TOKEN> secret:<YOUR_SECRET>];
+DeviceDNA *deviceDNA = [[DeviceDNA alloc] initWithCredentials:credentials];
+```
+
+### Step 2: Identify a device
+
+- Call DeviceDNA to identify the device, this executes a callback providing the discovered device identifier and an error object.
+
+_swift_
+```swift
+deviceDNA.identifyDevice { (deviceIdentifier, error) in
+    //Your provided callback.            
+}
+```
+
+_obj-c_
+```objc
+[deviceDNA identifyDevice:^(NSString * _Nullable deviceIdentifier, NSError * _Nullable error) {
+    //Your provided callback.    
+}];
+```
+
+### Step 3: Check the device profile
+
+- Using the device identifier returned in step 2, call to retrieve the device profile
+
+_swift_
+```swift
+deviceDNA.getDeviceProfile(deviceId) { (device, error) in
+    //Your provided callback.  
+}
+```
+
+_obj-c_
+```objc
+[dna getDeviceProfile:deviceId completion:^(NSDictionary<NSString *,id> * _Nullable device, NSError * _Nullable error) {
+    //Your provided callback.    
+}];
+```
