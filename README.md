@@ -21,7 +21,7 @@ $ gem install cocoapods
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 
-pod 'DeviceDNA', '~> 2.0'
+pod 'DeviceDNA', '~> 0.1'
 ```
 
 - Then, run the following command:
