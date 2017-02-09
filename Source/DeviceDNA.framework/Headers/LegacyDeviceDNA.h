@@ -28,6 +28,6 @@
 @interface LegacyDeviceDNA : NSObject
 
 - (nonnull instancetype)initWithCredentials:(nonnull Credentials *)credentials;
-- (void)getEncryptedDeviceSignalsWithDeviceIdentifier:(nonnull void(^)(NSDictionary<NSString *, NSString *> * _Nullable device, NSError * _Nullable error))completion;
+- (void)getEncryptedDeviceSignalsWithDeviceIdentifier:(nonnull void(^)(NSDictionary<NSString *, NSString *> * _Nullable device, NSError * _Nullable error))completion __attribute__((deprecated("Please use the getDeviceSignals method on the DeviceDNA endpoint. This will be removed in a future release.")));;
     
 @end
