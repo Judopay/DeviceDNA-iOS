@@ -105,3 +105,26 @@ _obj-c_
     //Your provided callback.    
 }];
 ```
+--------------------------
+### Device signals for server to server fraud prevention
+When performing server to server payments using the Judopay API, you may wish to identify the device at the time of payment. To obtain the device signals necessary for fraud prevention, use DeviceDNA to obtain the encrypted signals which will be passed in the ```clientDetails``` JSON field of the request body:
+
+_swift_
+```swift
+self.deviceDNA.getEncryptedDeviceSignals { (device, error) in
+    if let device = device as [String : String]? 
+        let deviceId = device["deviceIdentifier"];
+        let key = device["key"];
+        let value = device["value"];
+    }
+}
+```
+
+_obj-c_
+```objc
+[dna getDeviceSignals:^(NSDictionary<NSString *,NSString *> * _Nullable device, NSError * _Nullable error) {
+    NSString *deviceId = device["deviceIdentifier"];
+    NSString *key = device["key"];
+    NSString *value = device["value"];
+}];
+```
