@@ -101,7 +101,7 @@ deviceDNA.getDeviceProfile(deviceId) { (device, error) in
 
 _obj-c_
 ```objc
-[dna getDeviceProfile:deviceId completion:^(NSDictionary<NSString *,id> * _Nullable device, NSError * _Nullable error) {
+[deviceDNA getDeviceProfile:deviceId completion:^(NSDictionary<NSString *,id> * _Nullable device, NSError * _Nullable error) {
     //Your provided callback.    
 }];
 ```
@@ -111,7 +111,7 @@ When performing server to server payments using the Judopay API, you may wish to
 
 _swift_
 ```swift
-self.deviceDNA.getDeviceSignals { (device, error) in
+deviceDNA.getDeviceSignals { (device, error) in
     if let device = device as [String : String]? 
         let deviceId = device["deviceIdentifier"];
         let key = device["key"];
@@ -122,7 +122,7 @@ self.deviceDNA.getDeviceSignals { (device, error) in
 
 _obj-c_
 ```objc
-[dna getDeviceSignals:^(NSDictionary<NSString *,NSString *> * _Nullable device, NSError * _Nullable error) {
+[deviceDNA getDeviceSignals:^(NSDictionary<NSString *,NSString *> * _Nullable device, NSError * _Nullable error) {
     NSString *deviceId = device["deviceIdentifier"];
     NSString *key = device["key"];
     NSString *value = device["value"];
