@@ -111,7 +111,7 @@ When performing server to server payments using the Judopay API, you may wish to
 
 _swift_
 ```swift
-self.deviceDNA.getEncryptedDeviceSignals { (device, error) in
+self.deviceDNA.getDeviceSignals { (device, error) in
     if let device = device as [String : String]? 
         let deviceId = device["deviceIdentifier"];
         let key = device["key"];
