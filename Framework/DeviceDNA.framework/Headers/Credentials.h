@@ -26,9 +26,25 @@
 
 @interface Credentials : NSObject
 
+/**
+ * The merchant's token string
+ */
 @property (nonnull, nonatomic, strong) NSString *token;
+
+/**
+ * The merchant's secret string
+ */
 @property (nonnull, nonatomic, strong) NSString *secret;
 
-- (_Nonnull instancetype)initWithToken:(nonnull NSString *)token secret:(nonnull NSString *)secret;
+/**
+ * Designated initializer that creates a Credentials instance based on provided parameters
+ *
+ * @param token - the merchant's token string
+ * @param secret - the merchant's secret string
+ *
+ * @returns a configured Credentials instance with set token and secret
+ */
+- (nonnull instancetype)initWithToken:(nonnull NSString *)token
+                               secret:(nonnull NSString *)secret;
 
 @end

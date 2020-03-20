@@ -25,13 +25,25 @@
 #import <Foundation/Foundation.h>
 
 #import "Credentials.h"
-#import "LegacyDeviceDNA.h"
 
 @interface DeviceDNA : NSObject
 
+typedef void(^DeviceSignalCompletion)(NSDictionary * _Nullable device, NSError * _Nullable error);
+
+/**
+ * Designated initializer that creates a DeviceDNA instance based on provided credentials
+ *
+ * @param credentials - an object containing the token and the secret
+ *
+ * @returns a configured instance of DeviceDNA
+ */
 - (nonnull instancetype)initWithCredentials:(nonnull Credentials *)credentials;
-- (void)getDeviceSignals:(nonnull void(^)(NSDictionary<NSString *, NSString *> * _Nullable device, NSError * _Nullable error))completion;
-- (void)identifyDevice:(nonnull void(^)(NSString * _Nullable deviceIdentifier, NSError * _Nullable error))completion;
-- (void)getDeviceProfile:(nonnull NSString *)deviceIdentifier completion:(nonnull void(^)(NSDictionary<NSString *, id> * _Nullable device, NSError * _Nullable error))completion;
+
+/**
+ * A method for returning the encrypted device signals
+ *
+ * @param completion - the completion block containing the device info NSDictionary or an NSError
+ */
+- (void)getDeviceSignals:(nonnull DeviceSignalCompletion)completion;
 
 @end
