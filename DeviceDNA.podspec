@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name                  = 'DeviceDNA'
-  s.version               = '1.0.0'
+  s.version               = '1.1.2'
   s.summary               = 'Judopay Device DNA client for iOS'
-  s.homepage              = 'http://judopay.com/'
+  s.homepage              = 'https://judopay.com/'
   s.license               = 'MIT'
-  s.author                = { "Ashley Barrett" => 'ashley.barrett@judopayments.com' }
+  s.author                = { "Judopay" => 'developersupport@judopayments.com' }
   s.source                = { :git => 'https://github.com/Judopay/DeviceDNA-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.3'
   s.requires_arc          = true
