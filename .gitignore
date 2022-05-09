@@ -17,9 +17,6 @@ DerivedData
 *.xcuserstate
 .DS_Store
 
-Framework/DeviceDNA.framework/_CodeSignature/*.*
-Source/DeviceDNA.framework/_CodeSignature/*.*
-
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
