@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "DeviceDNA",
     platforms: [
-        .iOS(.v9)
+        .iOS("10.3")
     ],
     products: [
         .library(
