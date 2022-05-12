@@ -2,7 +2,7 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
- 
+
 let package = Package(
     name: "DeviceDNA",
     platforms: [
@@ -11,15 +11,19 @@ let package = Package(
     products: [
         .library(
             name: "DeviceDNA",
-            targets: ["DeviceDNA"]),
+            targets: ["DeviceDNATarget"])
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/OpenSSL", from: 1.1.180)
+        .package(url: "https://github.com/krzyzanowskim/OpenSSL", from: "1.1.180")
     ],
     targets: [
+        .target(
+            name: "DeviceDNATarget",
+            dependencies: [
+                .product(name: "OpenSSL", package: "OpenSSL"),
+                .target(name: "DeviceDNA")
+            ]),
         .binaryTarget(
             name: "DeviceDNA",
-            path: "Framework/DeviceDNA.xcframework"
-        )
-    ]
-)
+            path: "Framework/DeviceDNA.xcframework")
+    ])
