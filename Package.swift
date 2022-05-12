@@ -22,7 +22,8 @@ let package = Package(
             dependencies: [
                 .product(name: "OpenSSL", package: "OpenSSL"),
                 .target(name: "DeviceDNA")
-            ]),
+            ],
+            path: "Sources"),
         .binaryTarget(
             name: "DeviceDNA",
             path: "Framework/DeviceDNA.xcframework")
