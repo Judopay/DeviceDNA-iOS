@@ -23,7 +23,7 @@ $ gem install cocoapods
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 
-pod 'DeviceDNA', '~> 0.1'
+pod 'DeviceDNA', '~> 2.0'
 ```
 
 - Then, run the following command:
@@ -33,14 +33,6 @@ $ pod install
 ```
 
 - Please make sure to always **use the newly generated `.xcworkspace`** file not not the projects `.xcodeproj` file
-
-- In your Xcode environment, go to your `Project Navigator` (blue project icon), select the target that will initialize DeviceDNA and open the tab called `Build Phases`.
-- Add a new `Run Script Phase` and drag it above the `Compile Sources` build phase.
-- In the shell script, paste the following line:
-
-```bash
-sh "${PODS_ROOT}/DeviceDNA/Framework/strip-frameworks-cocoapods.sh"
-```
 
 #### 2. Initialize DeviceDNA with your Judo account details:
 
