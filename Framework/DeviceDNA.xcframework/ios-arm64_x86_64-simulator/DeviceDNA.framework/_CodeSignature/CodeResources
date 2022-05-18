@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PPxuP9mKnDBExq0Dw7joD6rZ0yg=
+		TcH3UbpuUAXbyy9uB9RQ5Rsp2yk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -25,10 +25,6 @@
 	<dict>
 		<key>Headers/Credentials.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VYjAEzkS0FqNlejyt3+WG/SjzqU=
-			</data>
 			<key>hash2</key>
 			<data>
 			VDroIWQ33EI/4EYoMjA2h6DsZ1MmryREKAg1oaiXE8M=
@@ -36,10 +32,6 @@
 		</dict>
 		<key>Headers/DeviceDNA.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QWbYKM9LBhe6x6RZpB5YOXBHqU0=
-			</data>
 			<key>hash2</key>
 			<data>
 			NFoTpvTMo9VM6bIItU69cnLAOvLvEBtFUQgYhQuO6Xg=
@@ -47,10 +39,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mSGGQb/rxcnBw6O8XdJ99LCzZm4=
-			</data>
 			<key>hash2</key>
 			<data>
 			O9bh9bnZGDseNpj0Z47JqlXiH0sD1L/idOoKQu8F3WM=

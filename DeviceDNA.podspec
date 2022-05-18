@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.requires_arc          = true
   s.vendored_frameworks   = 'Framework/DeviceDNA.xcframework'
-  s.dependency            = 'OpenSSL-Universal', '~> 1.1.180'
   s.frameworks            = 'CoreLocation', 'Security', 'CoreTelephony'
+
+  s.dependency 'OpenSSL-Universal', '~> 1.1.180'
 end
