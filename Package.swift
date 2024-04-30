@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "DeviceDNA",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -14,7 +14,7 @@ let package = Package(
             targets: ["DeviceDNATarget"])
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/OpenSSL", from: "1.1.180")
+        .package(url: "https://github.com/krzyzanowskim/OpenSSL", from: "1.1.2200")
     ],
     targets: [
         .target(
