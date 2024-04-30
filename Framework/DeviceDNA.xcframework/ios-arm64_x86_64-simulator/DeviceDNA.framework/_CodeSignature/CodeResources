@@ -4,44 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Credentials.h</key>
-		<data>
-		VYjAEzkS0FqNlejyt3+WG/SjzqU=
-		</data>
 		<key>Headers/DeviceDNA.h</key>
 		<data>
-		QWbYKM9LBhe6x6RZpB5YOXBHqU0=
+		oFz6tc9BPZT/s6nPwt3fvI91kYY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TcH3UbpuUAXbyy9uB9RQ5Rsp2yk=
+		OJsaZxwxN/nPYIINq4KG/Ip+yVU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		mSGGQb/rxcnBw6O8XdJ99LCzZm4=
+		MG12vsctKxxAr2D4fSH6LSq0WGM=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Credentials.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VDroIWQ33EI/4EYoMjA2h6DsZ1MmryREKAg1oaiXE8M=
-			</data>
-		</dict>
 		<key>Headers/DeviceDNA.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NFoTpvTMo9VM6bIItU69cnLAOvLvEBtFUQgYhQuO6Xg=
+			4qfeNJ2j53Q4aZKXhEgxDde+ej+dI3qpRy4pUb2XRss=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O9bh9bnZGDseNpj0Z47JqlXiH0sD1L/idOoKQu8F3WM=
+			h11unN5Kqnz8LlaNcu94WKptl2V/x7wrjxgF5/LkeSo=
 			</data>
 		</dict>
 	</dict>

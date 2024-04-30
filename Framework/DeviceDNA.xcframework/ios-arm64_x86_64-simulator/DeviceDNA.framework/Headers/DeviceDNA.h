@@ -24,20 +24,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Credentials.h"
-
 @interface DeviceDNA : NSObject
 
 typedef void(^DeviceSignalCompletion)(NSDictionary * _Nullable device, NSError * _Nullable error);
-
-/**
- * Designated initializer that creates a DeviceDNA instance based on provided credentials
- *
- * @param credentials - an object containing the token and the secret
- *
- * @returns a configured instance of DeviceDNA
- */
-- (nonnull instancetype)initWithCredentials:(nonnull Credentials *)credentials;
 
 /**
  * A method for returning the encrypted device signals
