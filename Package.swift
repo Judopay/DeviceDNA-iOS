@@ -11,20 +11,10 @@ let package = Package(
     products: [
         .library(
             name: "DeviceDNA",
-            targets: ["DeviceDNATarget"])
-    ],
-    dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/OpenSSL", from: "1.1.2200")
+            targets: ["DeviceDNA"])
     ],
     targets: [
-        .target(
-            name: "DeviceDNATarget",
-            dependencies: [
-                .product(name: "OpenSSL", package: "OpenSSL"),
-                .target(name: "DeviceDNA")
-            ],
-            path: "Sources"),
         .binaryTarget(
             name: "DeviceDNA",
-            path: "Framework/DeviceDNA.xcframework")
+            path: "DeviceDNA.xcframework")
     ])
