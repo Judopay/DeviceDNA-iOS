@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/DeviceDNA.framework/DeviceDNA</key>
 		<data>
-		f1arjylUxWB6D7eZV4+4GGyZHJA=
+		9YONLgIH6FOhvyhHLwGvQ6s86A0=
 		</data>
 		<key>ios-arm64/DeviceDNA.framework/Headers/DeviceDNA.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>ios-arm64/DeviceDNA.framework/Info.plist</key>
 		<data>
-		QM1Ml2s/r5PKE00Rb48x6I/Y23c=
+		GrsVllqVqA4NqpyUryoN0Kvp73U=
 		</data>
 		<key>ios-arm64/DeviceDNA.framework/Modules/module.modulemap</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/DeviceDNA</key>
 		<data>
-		UQAnqMJFuJ9Btb3JNIr2MqQgxhg=
+		UCzDltcL2LVVjq1/lyIPsMLMRnQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Headers/DeviceDNA.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Info.plist</key>
 		<data>
-		xIauLCqpbDNY6qKJmFLEJ+GBiS8=
+		eLyEeaGFSv9lDrm0ae7+9O21rXk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/_CodeSignature/CodeResources</key>
 		<data>
-		siRAF1vgV22227tLMFgrPXZ5+Fg=
+		Rq56aJCiWfdxy4H4laRrR6traGo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f1arjylUxWB6D7eZV4+4GGyZHJA=
+			9YONLgIH6FOhvyhHLwGvQ6s86A0=
 			</data>
 			<key>hash2</key>
 			<data>
-			YM6U+yaA47Paps81VJhnx92UwfWwJRgzd2FFXa8DZ5U=
+			rNNNWkN7F8tJWdUSVksAlN39UxV5be3E7eftmrlMEAM=
 			</data>
 		</dict>
 		<key>ios-arm64/DeviceDNA.framework/Headers/DeviceDNA.h</key>
@@ -77,11 +77,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QM1Ml2s/r5PKE00Rb48x6I/Y23c=
+			GrsVllqVqA4NqpyUryoN0Kvp73U=
 			</data>
 			<key>hash2</key>
 			<data>
-			9qJoY0NGcOJUZKbpOGX0Xodhfe0/f3xLetJfQ9n7Dao=
+			tfCMHFExDb0y7QlszGQJh30uTmXModp9SMylsIdDm7w=
 			</data>
 		</dict>
 		<key>ios-arm64/DeviceDNA.framework/Modules/module.modulemap</key>
@@ -110,11 +110,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UQAnqMJFuJ9Btb3JNIr2MqQgxhg=
+			UCzDltcL2LVVjq1/lyIPsMLMRnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kUX3kMhGKwiOPH2hhc1ylIa2g/iPkIav9ijuf3+Fpz8=
+			CtpKtpUCGSD+Ct3z3fKCTDb8GUlawnm7vpQ4opkxYOU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Headers/DeviceDNA.h</key>
@@ -132,11 +132,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xIauLCqpbDNY6qKJmFLEJ+GBiS8=
+			eLyEeaGFSv9lDrm0ae7+9O21rXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			dLfd/Pwv/0EMSQByF+IQw8JhRohoqw0figAt7MxRFuY=
+			ZTzh5rvJ/rmKIrbHWfbmQ+3qEqAUh/GETduQhbtjQuo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Modules/module.modulemap</key>
@@ -165,11 +165,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			siRAF1vgV22227tLMFgrPXZ5+Fg=
+			Rq56aJCiWfdxy4H4laRrR6traGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			q7o2TX8l2ssqwasDGK9/T7/TOt12K9rEi6ciOP++zEY=
+			7Wuo5rP0Egc8VPTjabs+Tn8u0Dh8k5ElerxvIXmuXDo=
 			</data>
 		</dict>
 	</dict>
