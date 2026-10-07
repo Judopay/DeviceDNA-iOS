@@ -1,5 +1,10 @@
 # DeviceDNA #
 
+> [!WARNING]
+> **DEPRECATED:** DeviceDNA is no longer supported and will not receive further updates.
+> Version `2.1.3` is the final release. Please plan to remove DeviceDNA from your project.
+> This repository is archived and read-only.
+
 The DeviceDNA iOS library allows you to identify devices using the Judopay Genome service
 
 ## Getting Started
@@ -23,7 +28,7 @@ $ gem install cocoapods
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 
-pod 'DeviceDNA', '~> 2.0'
+pod 'DeviceDNA', '2.1.3'
 ```
 
 - Then, run the following command:

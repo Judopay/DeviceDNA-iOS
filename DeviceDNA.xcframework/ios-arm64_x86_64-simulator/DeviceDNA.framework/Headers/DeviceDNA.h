@@ -24,6 +24,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ * @deprecated DeviceDNA is no longer supported and will not receive further updates. Please plan to remove it from your project. See https://github.com/Judopay/DeviceDNA-iOS
+ */
+DEPRECATED_MSG_ATTRIBUTE("DeviceDNA is no longer supported and will not receive further updates. Please plan to remove it from your project. See https://github.com/Judopay/DeviceDNA-iOS")
 @interface DeviceDNA : NSObject
 
 typedef void(^DeviceSignalCompletion)(NSDictionary * _Nullable device, NSError * _Nullable error);

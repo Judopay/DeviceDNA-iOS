@@ -4,37 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ios-arm64/DeviceDNA.framework/DeviceDNA</key>
-		<data>
-		9YONLgIH6FOhvyhHLwGvQ6s86A0=
-		</data>
-		<key>ios-arm64/DeviceDNA.framework/Headers/DeviceDNA.h</key>
-		<data>
-		oFz6tc9BPZT/s6nPwt3fvI91kYY=
-		</data>
-		<key>ios-arm64/DeviceDNA.framework/Info.plist</key>
-		<data>
-		GrsVllqVqA4NqpyUryoN0Kvp73U=
-		</data>
-		<key>ios-arm64/DeviceDNA.framework/Modules/module.modulemap</key>
-		<data>
-		MG12vsctKxxAr2D4fSH6LSq0WGM=
-		</data>
-		<key>ios-arm64/DeviceDNA.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		RfWJlmVJIJpXkDukhsjeP3HwofQ=
-		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/DeviceDNA</key>
 		<data>
-		UCzDltcL2LVVjq1/lyIPsMLMRnQ=
+		lrTH6/kI8bBBgCg2p/YBCLnSnMw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Headers/DeviceDNA.h</key>
 		<data>
-		oFz6tc9BPZT/s6nPwt3fvI91kYY=
+		qgrhS4nXAyseq5Odr00pFwq107Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Info.plist</key>
 		<data>
-		eLyEeaGFSv9lDrm0ae7+9O21rXk=
+		cLAmFMWL7a2AMzMvLUyT9Y624GI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Modules/module.modulemap</key>
 		<data>
@@ -46,97 +26,42 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Rq56aJCiWfdxy4H4laRrR6traGo=
+		shudal/tfPfIdIC44ewa5R1bO9k=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ios-arm64/DeviceDNA.framework/DeviceDNA</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9YONLgIH6FOhvyhHLwGvQ6s86A0=
-			</data>
-			<key>hash2</key>
-			<data>
-			rNNNWkN7F8tJWdUSVksAlN39UxV5be3E7eftmrlMEAM=
-			</data>
-		</dict>
-		<key>ios-arm64/DeviceDNA.framework/Headers/DeviceDNA.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oFz6tc9BPZT/s6nPwt3fvI91kYY=
-			</data>
-			<key>hash2</key>
-			<data>
-			4qfeNJ2j53Q4aZKXhEgxDde+ej+dI3qpRy4pUb2XRss=
-			</data>
-		</dict>
-		<key>ios-arm64/DeviceDNA.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GrsVllqVqA4NqpyUryoN0Kvp73U=
-			</data>
-			<key>hash2</key>
-			<data>
-			tfCMHFExDb0y7QlszGQJh30uTmXModp9SMylsIdDm7w=
-			</data>
-		</dict>
-		<key>ios-arm64/DeviceDNA.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MG12vsctKxxAr2D4fSH6LSq0WGM=
-			</data>
-			<key>hash2</key>
-			<data>
-			h11unN5Kqnz8LlaNcu94WKptl2V/x7wrjxgF5/LkeSo=
-			</data>
-		</dict>
-		<key>ios-arm64/DeviceDNA.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RfWJlmVJIJpXkDukhsjeP3HwofQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			qzYdStJPslYohzMCchmAQMwZ4ujsujUJhVRbKE3Hzfs=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/DeviceDNA</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UCzDltcL2LVVjq1/lyIPsMLMRnQ=
+			lrTH6/kI8bBBgCg2p/YBCLnSnMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			CtpKtpUCGSD+Ct3z3fKCTDb8GUlawnm7vpQ4opkxYOU=
+			a0GZYgl1qO2+alGSrODKk6AMZHsZV002CNLTKc6Z5kc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Headers/DeviceDNA.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oFz6tc9BPZT/s6nPwt3fvI91kYY=
+			qgrhS4nXAyseq5Odr00pFwq107Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qfeNJ2j53Q4aZKXhEgxDde+ej+dI3qpRy4pUb2XRss=
+			AZSRjYlb/AY0q6T+bKN23xfAlDuclUZAEmPDw+Toa68=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eLyEeaGFSv9lDrm0ae7+9O21rXk=
+			cLAmFMWL7a2AMzMvLUyT9Y624GI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZTzh5rvJ/rmKIrbHWfbmQ+3qEqAUh/GETduQhbtjQuo=
+			jMXqqBvUv6nAWExhpUshazuzape0dyAaQMeqyP2E8+Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeviceDNA.framework/Modules/module.modulemap</key>
@@ -165,11 +90,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rq56aJCiWfdxy4H4laRrR6traGo=
+			shudal/tfPfIdIC44ewa5R1bO9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Wuo5rP0Egc8VPTjabs+Tn8u0Dh8k5ElerxvIXmuXDo=
+			QoHNbfviehHas9ex6iOmMNz4FnnFiwV3mg2qFaiWn4o=
 			</data>
 		</dict>
 	</dict>

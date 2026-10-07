@@ -1,7 +1,10 @@
 Pod::Spec.new do |s|
   s.name                  = 'DeviceDNA'
-  s.version               = '2.1.2'
-  s.summary               = 'Judopay Device DNA client for iOS'
+  s.version               = '2.1.3'
+  s.summary               = '[DEPRECATED] Judopay Device DNA client for iOS'
+  s.description           = 'DEPRECATED: This library is no longer supported and will not receive further updates. ' \
+                            'Judopay Device DNA client for iOS.'
+  s.deprecated            = true
   s.homepage              = 'https://judopay.com/'
   s.license               = 'MIT'
   s.author                = { "Judopay" => 'developersupport@judopayments.com' }
